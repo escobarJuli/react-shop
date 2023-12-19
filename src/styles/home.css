@@ -1,0 +1,26 @@
+.clamp-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+.selecting-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.selecting-card:hover {
+    border-color: blue;
+}
+
+.selecting-price {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.selecting-price:hover {
+    color: green;
+    cursor: grab;
+}
